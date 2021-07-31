@@ -1,0 +1,41 @@
+.checkboxContainer{
+    display: flex;
+    flex-direction: column;
+    
+    border-radius: 10px;
+    border: 1px;
+    margin-top: 15px;
+}
+.checkbox{
+    overflow: auto;
+    white-space: nowrap;
+    height: 300px;
+}
+span{
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.checkboxContainer > h3{
+    padding-left: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(124, 46, 162);
+}
+
+.checkbox::-webkit-scrollbar{
+    width: 10px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+}
+.checkbox::-webkit-scrollbar-track{
+    background-color: #dbdada;
+    border-radius: 20px;
+}
+.checkbox::-webkit-scrollbar-thumb{
+    background-color: #a5a5a5;
+    border-radius: 20px;
+}
+
+.MuiCheckbox-colorSecondary.Mui-checked{
+    color: #ac82ff !important;
+}
